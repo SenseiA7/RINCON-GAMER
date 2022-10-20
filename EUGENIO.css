@@ -1,0 +1,199 @@
+#conteiner{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+
+
+	
+
+}
+
+
+
+
+#Text1{
+	background-color:black;
+     align-self: center;
+     color: red;
+    border-radius:0.5em; 
+    font-family:  Vegur, 'PT Sans', Verdana, sans-serif;
+}
+#Text2{
+	background-color: black;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	color: white;
+
+}
+#tablaimg{
+	background-color:black;
+	float:  ;
+}
+#video{
+	background-color: black;
+	height: 50%;
+	width: 50%;
+	
+ }
+#descarga{
+	color: green;
+}
+#boton{
+    background-color: white;
+}
+
+
+
+ 
+/* Styling the area of the slides */
+#slideshow {
+  overflow: hidden;
+  height: 420px;
+  width: 600px;
+  margin: 0 auto;
+  
+}
+ 
+/* Style each of the sides
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+  position: left;
+
+}
+ 
+/* Add animation to the slides */
+.slide-wrapper {
+   
+/* Calculate the total width on the
+  basis of number of slides */
+  width: calc(728px * 4);
+ 
+/* Specify the animation with the
+  duration and speed */
+  animation: slide 8s ease infinite;
+}
+ 
+/* Set the background color
+of each of the slides */
+
+ 
+.slide:nth-child(2) {
+  background: black;
+}
+ 
+.slide:nth-child(3) {
+  background: black;
+}
+ 
+.slide:nth-child(4) {
+  background: black;
+}
+ 
+/* Define the animation
+for the slideshow */
+@keyframes slide {
+   
+/* Calculate the margin-left for
+  each of the slides */
+  20% {
+    margin-left: 0px;
+  }
+ 
+  40% {
+    margin-left: calc(-728px * 1);
+  }
+ 
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+ 
+  80% {
+    margin-left: calc(-728px * 3);
+  }
+}s
+
+
+
+.container{
+  background: black;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.contenedor {
+  height: 150px;
+  margin: auto;
+  width: 150px;
+  -webkit-perspective: 700;
+}
+
+.carta {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0px 0px 5px black;
+  position: absolute;
+}
+
+.carta:hover{
+  transform: rotateY(180deg);
+}
+
+.lado{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+   background: #F0F0F0;
+  backface-visibility: hidden;
+}
+
+.frente{ background-color:black; }
+.frente h3 {
+   position: absolute;
+   font-size: 38px;
+   margin-top: 200px;
+   color: #fff;
+
+}
+
+
+ul {
+  padding: 0;
+  margin:0;
+  list-style: none;
+  height: 10px;
+  
+}
+
+li {
+  text-decoration: none;
+  padding: 10px;
+  z-index:80;
+}
+
+
+.atras{
+  height: 100%;
+  width: 100%;
+  transform: rotateY(180deg);
+  border-radius: 2em;
+  background-color: gray;
+
+}
+
+.atras h6 {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+  font-family: Arial, Helvetica , sans-serif;
+
+}
+
